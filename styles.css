@@ -1,0 +1,18 @@
+body { /* css file is to make things look nice/ordered on website */
+    background-color: purple;
+}
+
+p { /* this edits every piece of text (from HTML file) with p tag*/
+    color: red;
+    font-size: 3rem;
+}
+
+.header { /* this edits everything within the header class (div); use class names to style */
+    background-color: white;
+    display: flex; /* force it to be side by side */
+}
+
+#main-header { /* example for using id instead of class */
+    color: purple;
+    margin-left: auto;
+}
